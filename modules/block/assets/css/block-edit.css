@@ -1,0 +1,96 @@
+.inside input[type="text"], .inside textarea, .inside select {
+    width: 100%;
+}
+.CodeMirror {
+    border: 1px solid #ddd;
+}
+.CodeMirror-placeholder {
+    opacity: 0.4;
+}
+.tab-head {
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-bottom: none;
+}
+.tab-head.tab-active {
+    text-decoration: none;
+    background-color: #eee;
+}
+.tab-body {
+    background-color: #eee;
+    border: 1px solid #ddd;
+    padding: 15px;
+}
+#wpfooter {
+    position: static;
+}
+
+.icon svg,
+#icon_svg svg {
+    max-width: 100%;
+    height: auto;
+}
+
+.d-flex {
+    display: flex;
+}
+.d-flex .dashicons-before {
+  display: flex !important;
+  align-items: center;
+}
+
+#_block_attributes_editor .attr_add {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#_block_attributes_editor .repeat_attr {
+    border: 1px solid;
+    margin-bottom: 15px;
+}
+
+#_block_attributes_editor .attr_ops {
+    background-color: #eee;
+}
+#_block_attributes_editor .attr_data {
+    display: none;
+    padding: 15px;
+}
+#_block_attributes_editor .attr_name {
+    font-weight: bold;
+    cursor: pointer;
+    padding: 5px;
+    display: inline-block;
+}
+#_block_attributes_editor .attr_name:before {
+    margin-right: 15px;
+}
+#_block_attributes_editor .pull-right {
+    float: right;
+    display: flex;
+    align-items: center;
+    margin-left: 2px;
+}
+#_block_attributes_editor .attr_ops:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+#_block_attributes_editor .repeat_attr:first-child .attr_up {
+    display: none;
+}
+#_block_attributes_editor .repeat_attr:last-child .attr_down {
+    display: none;
+}
+#_block_attributes_editor .attr_remove {
+    color: red;
+}
+#_block_attributes_editor label {
+    display: inline-block;
+    width: 48%;
+    padding: 5px;
+}
